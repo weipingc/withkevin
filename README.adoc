@@ -2,3 +2,10 @@
 
 Install Homebrew: https://brew.sh/
 
+Setup Java
+----
+$ brew cask install java11
+$ in ~/.zshrc
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export PATH="$JAVA_HOME/bin:$PATH"
+----

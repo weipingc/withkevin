@@ -2,7 +2,7 @@
 
 Install Homebrew: https://brew.sh/
 
-.Setup Java
+Setup Java
 ----
 $ brew cask install java11
 
